@@ -7,9 +7,7 @@ function bfsearch(tree, callback) {
 
     if (!node.children) continue;
 
-    node.children.forEach(child => {
-      queue.push(child);
-    });
+    queue.concat(node.children);
   }
 }
 
