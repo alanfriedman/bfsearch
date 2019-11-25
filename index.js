@@ -6,6 +6,8 @@ function bfsearch(tree, callback) {
     callback(node);
 
     if (!node.children) continue;
+    
+    if (!Array.isArray(node.children)) throw new Error('Cannot have non-array children');
 
     node.children.forEach(child => {
       queue.push(child);
