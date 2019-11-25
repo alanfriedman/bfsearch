@@ -1,0 +1,9 @@
+{
+  "name": "bfsearch",
+  "version": "1.0.0",
+  "description": "Breadth-first search a tree",
+  "main": "index.js",
+  "repository": "https://github.com/github:alanfriedman/bfsearch",
+  "author": "Alan Friedman",
+  "license": "MIT"
+}
